@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spider-Store: Andrew Garfield</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-curtain curtain-hidden" id="page-curtain">
+    <div class="curtain-content">
+      <div class="curtain-logo">🕷</div>
+      <p>Spider-Store açılıyor...</p>
+    </div>
+  </div>
+  <div class="intro-screen">
+    <div class="intro-card">
+      <div class="intro-badge">Spider-Store</div>
+      <h1 class="glitch" data-text="Andrew Garfield Özel Koleksiyonu">Andrew Garfield Özel Koleksiyonu</h1>
+      <p>Örümcek Adam dünyasına giriş yap. Teoriler, görseller ve retro film hikayeleriyle dolu bir deneyim seni bekliyor.</p>
+      <button class="intro-button" id="enter-button">Giriş Yap</button>
+      <span class="intro-caption">Örümcek Adam dünyasına giriş yap ve koleksiyonu keşfet.</span>
+    </div>
+    <div class="intro-loader" id="intro-loader">
+      <div class="loader-ring"></div>
+      <p>Yükleniyor...</p>
+    </div>
+  </div>
+  <div class="coming-screen intro-hidden" id="coming-screen">
+    <div class="coming-card">
+      <h2>Yakında Gelecek</h2>
+      <p>Bu ürün kısa süre içinde mağazada yerini alacak. O zamana kadar sitemizde gezinmeye devam edebilirsin.</p>
+      <button class="btn" id="coming-close">Tamam</button>
+    </div>
+  </div>
+  <header class="topbar">
+    <div class="logo" id="logo">🕷</div>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Menüyü aç" aria-expanded="false">🕷</button>
+    <nav class="nav" id="main-nav">
+      <a href="#hero">Ana Sayfa</a>
+      <a href="#products">Mağaza</a>
+      <a href="#theories">Teoriler</a>
+      <a href="#archive">Arşiv</a>
+      <a href="#gallery">Galeri</a>
+    </nav>
+    <button class="web-shooter" id="web-shooter" aria-label="Ağ atıcı">🕸</button>
+  </header>
+
+  <section id="hero" class="hero shop-hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Örümcek Adam Koleksiyonu</p>
+      <h1>Andrew Garfield Dönemine Hoş Geldin</h1>
+      <p class="hero-text">The Amazing Spider-Man serisi, elektrikli düşmanları, duygusal hikayesi ve alternatif evren teorileriyle yeniden keşfediliyor.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#products">Mağazayı Gör</a>
+        <a class="btn btn-secondary" href="#theories">Teorilere Bak</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="products" class="section section-market">
+      <div class="container">
+        <div class="section-header">
+          <h2>Öne Çıkan Ürünler & Koleksiyonlar</h2>
+          <p>Andrew Garfield'in Spider-Man dünyasına ait filmler, posterler ve koleksiyon fikirleri.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image product-a"></div>
+            <div class="product-info">
+              <h3>The Amazing Spider-Man Poster</h3>
+              <p>2012 model ASM1 posteri, retro sinema hissiyle duvarına güç katar.</p>
+              <span class="price">₺299</span>
+              <a class="btn btn-sm" href="#">Sepete Ekle</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-image product-b"></div>
+            <div class="product-info">
+              <h3>Web-Shooter Tasarım Kit</h3>
+              <p>Andrew versiyonunun mekanik detaylarını andıran konsept ürün seti.</p>
+              <span class="price">₺179</span>
+              <a class="btn btn-sm" href="#">Sepete Ekle</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-image product-c"></div>
+            <div class="product-info">
+              <h3>ASM2 Gizemli Teori Kiti</h3>
+              <p>Elektro, Green Goblin ve alt evren bağlantıları için hayran teorileri koleksiyonu.</p>
+              <span class="price">₺249</span>
+              <a class="btn btn-sm" href="#">Sepete Ekle</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="theories" class="section section-theories">
+      <div class="container">
+        <div class="section-header">
+          <h2>Yeni Çıkacak Film Hakkında Teoriler</h2>
+          <p>Andrew Garfield era'sını gelecekteki yapımlarla birleştiren güçlü teoriler.</p>
+        </div>
+        <div class="cards">
+          <article class="theory-card">
+            <h3>Multiverse Bağlantısı</h3>
+            <p>Andrew Garfield'in Peter Parker'ının, yeni filmde Spider-Verse kavramıyla yeniden sahne alacağı teorisi popüler.</p>
+          </article>
+          <article class="theory-card">
+            <h3>ASM2'den Kayıp İzler</h3>
+            <p>Electro ve Green Goblin bağlantıları yeni filmin temel gizemini şekillendirebilir. Eski filmdeki devasa şimşek ve OsCorp detayları önem taşıyor.</p>
+          </article>
+          <article class="theory-card">
+            <h3>Peter Parker'ın İçsel Mücadelesi</h3>
+            <p>Andrew versiyonu, duygu yüklü bir aşk ve sorumluluk çatışmasıyla izleyicinin favorisi oldu; bu duygusal miras devam edebilir.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="archive" class="section section-archive">
+      <div class="container split">
+        <div class="archive-left">
+          <h2>Önceki Filmler ve Öne Çıkan Detaylar</h2>
+          <ul>
+            <li><strong>ASM1 (2012):</strong> Peter Parker'ın maskesini keşfi, Gwen Stacy ile ilişkisi ve Dr. Curt Connors'un dönüşümü.</li>
+            <li><strong>ASM2 (2014):</strong> Electro, Green Goblin dönüşümü ve Peter'ın Gwen'e olan fedakarlığı.</li>
+            <li><strong>Andrew Garfield Performansı:</strong> Genç, travmatik ve içine kapanık Peter; mizah ile acıyı dengeler.</li>
+            <li><strong>Takipünde:</strong> ASM evreni, MCU dışı özgün bir ton ve karanlık Iron Man unsurları taşır.</li>
+          </ul>
+        </div>
+        <div class="archive-right">
+          <div class="stat-card">
+            <span class="stat-value">2</span>
+            <p>Film sayısı</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">15+</span>
+            <p>Önemli kare & teori notu</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">Andrew</span>
+            <p>En ikonik sahne: tren, gökdelen, ve Gwen</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section section-gallery">
+      <div class="container">
+        <div class="section-header">
+          <h2>Fotoğraf Galerisi</h2>
+          <p>Andrew Garfield'ın Spider-Man kostümü, setten kareler ve film afişleri.</p>
+        </div>
+        <div class="gallery-grid">
+          <article class="gallery-card gallery-1">
+            <div class="gallery-label">ASM1 Seti</div>
+          </article>
+          <article class="gallery-card gallery-2">
+            <div class="gallery-label">Gwen & Peter</div>
+          </article>
+          <article class="gallery-card gallery-3">
+            <div class="gallery-label">Electro Sahneleri</div>
+          </article>
+          <article class="gallery-card gallery-4">
+            <div class="gallery-label">Doğu Yakası Devriyesi</div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shop-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Spider-Store</h3>
+        <p>Andrew Garfield Spider-Man temalı içerik ve koleksiyon hub'ı.</p>
+      </div>
+      <div>
+        <h4>Hızlı Linkler</h4>
+        <a href="#products">Mağaza</a>
+        <a href="#theories">Teoriler</a>
+        <a href="#gallery">Galeri</a>
+      </div>
+      <div>
+        <h4>İletişim</h4>
+        <p>dkucukekiz@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const pageCurtain = document.getElementById('page-curtain');
+    const enterButton = document.getElementById('enter-button');
+    const introScreen = document.querySelector('.intro-screen');
+    if (enterButton && introScreen) {
+      enterButton.addEventListener('click', () => {
+        enterButton.disabled = true;
+        enterButton.textContent = 'Yükleniyor...';
+        introScreen.classList.add('intro-loading');
+        setTimeout(() => {
+          introScreen.classList.add('intro-hidden');
+          if (pageCurtain) {
+            pageCurtain.classList.remove('curtain-hidden');
+            pageCurtain.classList.remove('closing');
+            pageCurtain.classList.add('show');
+            setTimeout(() => {
+              if (pageCurtain) {
+                pageCurtain.classList.add('closing');
+                pageCurtain.classList.remove('show');
+                setTimeout(() => {
+                  pageCurtain.classList.add('curtain-hidden');
+                  pageCurtain.classList.remove('closing');
+                }, 700);
+              }
+            }, 3200);
+          }
+        }, 1500);
+      });
+    }
+
+    const menuToggle = document.getElementById('menu-toggle');
+    const topbar = document.querySelector('.topbar');
+    const navLinks = document.querySelectorAll('.nav a');
+    const logo = document.getElementById('logo');
+    const comingScreen = document.getElementById('coming-screen');
+    const comingClose = document.getElementById('coming-close');
+    const cartButtons = document.querySelectorAll('.btn-sm');
+
+    if (menuToggle && topbar) {
+      menuToggle.addEventListener('click', () => {
+        const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+        menuToggle.setAttribute('aria-expanded', String(!expanded));
+        topbar.classList.toggle('open');
+      });
+    }
+
+    if (logo) {
+      logo.addEventListener('click', () => {
+        logo.classList.add('pulse');
+        setTimeout(() => logo.classList.remove('pulse'), 360);
+      });
+    }
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (topbar.classList.contains('open')) {
+          topbar.classList.remove('open');
+          menuToggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+
+    const webShooter = document.getElementById('web-shooter');
+    if (webShooter) {
+      webShooter.addEventListener('click', () => {
+        webShooter.classList.add('shoot');
+        setTimeout(() => webShooter.classList.remove('shoot'), 360);
+      });
+    }
+
+    if (cartButtons && comingScreen) {
+      cartButtons.forEach(button => {
+        button.addEventListener('click', event => {
+          event.preventDefault();
+          comingScreen.classList.remove('intro-hidden');
+        });
+      });
+    }
+
+    if (comingClose && comingScreen) {
+      comingClose.addEventListener('click', () => {
+        comingScreen.classList.add('intro-hidden');
+      });
+    }
+  </script>
+</body>
+</html>
